@@ -1,0 +1,38 @@
+# STM32CubeIDE Debug folders
+Debug/
+Release/
+
+# Build output files
+*.o
+*.d
+*.cyclo
+*.su
+*.list
+*.map
+*.elf
+*.bin
+*.hex
+
+# IDE and project files
+.metadata/
+.settings/
+*.launch
+.mxproject
+
+# Backup files
+*.bak
+*~
+*.swp
+
+# Log files
+*.log
+
+# USB/Middleware build artifacts
+USB_HOST/
+Middlewares/
+
+# Other common build artifacts
+build/
+output/
+*.lst
+*.srec
